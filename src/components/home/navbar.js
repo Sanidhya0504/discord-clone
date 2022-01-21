@@ -1,6 +1,7 @@
 import react from "react";
 import discord_logo from '../../assets/discord_logo.svg';
 import style from '../../assets/styles/home.css';
+import { Link } from "react-router-dom";
 
 const Nav = () => {
     return(
@@ -21,7 +22,7 @@ const Nav = () => {
                 </div>
                 <div>
                     <button className='nav--login--button'>
-                        <a href='/login'>Login</a>
+                        <Link to='/login'>Login</Link>
                     </button>
                 </div>
             </div>

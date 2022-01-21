@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login--page{
+    height: 100vh;
+    background-image: url(../login_bg.svg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.login--card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #36393f;
+    max-width: 1000px;
+    width: 800px;
+    gap: 50px;
+}
+
+
+#login--card--form{
+    display: flex;
+    flex-direction: column;
+    width: 28rem;
+    padding: 1rem 0.5rem;
+}
+#login--card--form h3{
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 2rem;
+}
+#login--card--form p{
+    text-align: center;
+    color: #9a9da0;
+    font-family: 'Heebo', sans-serif;
+    font-size: 0.8rem;
+}
+#login--card--form label{
+    font-family: 'Heebo', sans-serif;
+    font-size: 1rem;
+    color: #9a9da0;
+
+}
+#login--QR-code{
+    background-color: white;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+}
+#login--QR-code img{
+    width: 9rem;
+    height: 9rem;
+    margin: 0.5rem;
+}
+#login--card--form a{
+    color: #00b7ff;
+    font-size: 0.85rem;
+    cursor: pointer;
+}#login--card--form a:hover{
+    text-decoration: underline;
+}
+#login--card--form input{
+    background-color: #303339;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 2.5rem;
+}
+#login--btn{
+    background-color: rgb(78, 78, 255);
+    font-family: 'Heebo', sans-serif;
+    border: none;
+    height: 2.5rem;
+    color: white;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-right: 0.4rem;
+    margin-left: 0.4rem;
+    transition: 0.5s;
+    font-size: 1.15rem;
+}#login--btn:hover{ transform: scale(1.1); }
+#login--form{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#login--card--qr{
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#login--card--qr h3{
+    font-family: 'Heebo', sans-serif;
+    margin: 1rem 0;
+}#login--register a{
+    text-decoration: none;
+}

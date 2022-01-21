@@ -217,3 +217,40 @@
 .foot--col--text{
     color: #f6f6f6;
 }
+
+
+
+
+#home--btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#open--in, #download--win{
+    margin: 0.5rem 2rem;
+    border-radius: 2.5rem;
+    width: 22rem;
+    height: 2.5rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#open--in:hover , #download--win:hover{
+    transform: scale(1.5);
+    
+}
+#download--win img{
+    height: 1.5rem;
+}
+#download--win{
+    background-color: white;
+    
+}
+#open--in{
+    background-color: #23272a;
+    color: white;
+    text-decoration: none;
+}
