@@ -6,7 +6,7 @@ import Nav from './navbar';
 
 const HomeBanner=()=>{
     return(
-        <banner>
+        <div>
             <div className="home--banner">
                 <Nav/>
                 <div id="home--text--wrapper">
@@ -21,7 +21,7 @@ const HomeBanner=()=>{
                     <img id="home--img--right" src={ImgRight}></img>
                 </div>
             </div>
-        </banner>
+        </div>
     )
 }
 

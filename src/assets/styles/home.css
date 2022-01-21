@@ -125,7 +125,7 @@
 }
 
 #card--img--one{
-    height: 60vh;
+    max-height: 60vh;
 }
 
 #card--text--one{
@@ -141,7 +141,7 @@
 }
 
 .card--text{
-    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding-top: 45px;
     font-size: 20px;
 }
@@ -155,4 +155,65 @@
     color: #23272a;
     background-color: #f6f6f6;
     text-align: center;
+}
+#home--body--foot{
+    height: 100px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+
+}
+#home--foot--text{
+    font-style: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url(../tiny_stars_landing.svg);
+    font-size: 40px;
+    font-weight: bold;
+    max-width: 70rem;
+    padding: 15px;
+}
+
+#home--foot{
+    height: 70vh;
+    background-color: #23272a;
+    padding: 5rem 10rem;
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content:space-between;
+}
+
+#imagine{
+    color: #5865f2;
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    max-width: 10rem;
+    font-weight:bold;
+}
+
+#select--country{
+    display: flex;
+}
+#usa--flag{
+    margin-top: 10px;
+    width: 40px;
+}
+#usa--text{
+    padding-left: 10px;
+    margin-top: 15px;
+    color:#f6f6f6;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.foot--col{
+    display: flex;
+    flex-direction: column;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.foot--col--head{
+    color: #5865f2;
+}
+
+.foot--col--text{
+    color: #f6f6f6;
 }

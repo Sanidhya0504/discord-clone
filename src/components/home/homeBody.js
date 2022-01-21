@@ -4,6 +4,7 @@ import ImgTwo from "../../assets/hanging_out_easy_landing.svg";
 import ImgThree from "../../assets/fandom_landing.svg";
 import ImgFour from "../../assets/just_chilling_landing.svg";
 import style from '../../assets/styles/home.css';
+import Imgbottom from "../../assets/tiny_stars_landing.svg";
 
 
 const HomeBody = () => {
@@ -37,8 +38,11 @@ const HomeBody = () => {
                     <p className="card--text">Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
                 </div>
                 <img id="card--img--four" src={ImgFour}></img>
-                
+                <div id="home--body--foot">
+                    <p id="home--foot--text">Ready to start your journy?</p>
+                </div>
             </div>
+            
             
         </div>
     )
