@@ -12,11 +12,11 @@ const HomeBtns = () => {
             </div>
 
             <div className="home-btns-sub-div">
-                <button id="open--in">
-                    <Link to="/dashboard" id="open--in">
+                <Link to="/login" id="open--in">
+                    
                         Open Discord in your browser
-                    </Link>
-                </button>
+                    
+                </Link>
             </div>
         </div>
     )   

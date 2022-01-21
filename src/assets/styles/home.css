@@ -92,6 +92,7 @@
     font-size: 1.2rem;
     position: absolute;
     width: 800px;
+    margin-bottom: 100px;
 }
 #home--text--wrapper{
     width: 100%;
@@ -102,6 +103,7 @@
 #home--body--heading{
     font-family: 'Heebo', sans-serif;
     font-size: 4rem;
+    margin-top: 110px;
 }
 
 
@@ -223,23 +225,25 @@
 
 #home--btns{
     display: flex;
-    align-items: center;
     justify-content: center;
+    z-index: 9;
+    margin-top: 50px;
 }
 #open--in, #download--win{
     margin: 0.5rem 2rem;
     border-radius: 2.5rem;
-    width: 22rem;
-    height: 2.5rem;
+    width: 18rem;
+    height: 3.5rem;
     border: none;
     cursor: pointer;
     transition: 0.3s;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 #open--in:hover , #download--win:hover{
-    transform: scale(1.5);
+    transform: scale(1.1);
     
 }
 #download--win img{
@@ -247,10 +251,12 @@
 }
 #download--win{
     background-color: white;
+    font-size: 18px;
     
 }
 #open--in{
     background-color: #23272a;
-    color: white;
     text-decoration: none;
+    color: white;
+    font-size: 18px;
 }
