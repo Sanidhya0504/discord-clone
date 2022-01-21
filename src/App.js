@@ -1,10 +1,16 @@
 
 import Home from '../src/components/home/home.js';
+import {HashRouter, Route, Routes  } from "react-router-dom";
 
 
-function App() {
+const  App=()=> {
   return(
-    <Home />  
+    <HashRouter>
+      <Routes>
+      <Route path="/" element={<Home />}></Route>
+      </Routes>
+    </HashRouter>
+     
 )
 }
 

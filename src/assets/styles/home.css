@@ -145,3 +145,14 @@
     padding-top: 45px;
     font-size: 20px;
 }
+
+.home--card--four{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 170px;
+    align-items: center;
+    color: #23272a;
+    background-color: #f6f6f6;
+    text-align: center;
+}
