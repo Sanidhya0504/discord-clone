@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap');
+
+#register--bg{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../login_bg.svg);
+    background-size: cover;
+    font-family: 'Heebo', sans-serif;
+}
+#register--card{
+    background-color: #36393f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    border-radius: 0.5rem;
+}
+#register--already a{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #00b7ff;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+#register--already a:hover{
+    text-decoration: underline;
+}
+#register--card label{
+    color: #9a9da0;
+    font-size: 1rem;
+}
+#register--card div{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0;
+
+}
+#register--card input{
+    background-color: #303339;
+    color: white;
+    border: none;
+    font-family: 'Heebo', sans-serif;
+    width: 27rem;
+    height: 2.15rem;
+    margin: 0.5rem 0;
+}
+#register--card h3{
+    font-size: 1.5rem;
+}
+#register--btn{
+    width: 100%;
+    height: 2.5rem;
+    color: white;
+    background-color: rgb(78, 78, 255);
+    border: none;
+    font-family: 'Heebo', sans-serif;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    transition: 0.5s;
+}
+#register--btn:hover{
+    transform: scale(1.1);
+}
+#register--already{
+    width: 100%;
+    padding-top: 0.4rem;
+}#register--already a{
+    text-decoration: none;
+}

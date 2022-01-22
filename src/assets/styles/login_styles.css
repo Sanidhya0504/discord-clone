@@ -11,6 +11,7 @@
     justify-content: center;
     background-repeat: no-repeat;
     background-size:cover;
+    overflow: hidden;
 }
 
 .login--card{
@@ -21,6 +22,7 @@
     padding: 0.5rem 1rem;
     background-color: #36393f;
     max-width: 1000px;
+    min-width: 400px;
     width: 800px;
     gap: 50px;
 }

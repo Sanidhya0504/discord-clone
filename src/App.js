@@ -1,7 +1,9 @@
 
 import Home from '../src/components/home/home.js';
 import Login from './components/login/login.js';
-import {HashRouter,BrowserRouter, Route, Routes  } from "react-router-dom";
+import Register from './components/register/register.js';
+
+import {HashRouter, Route, Routes  } from "react-router-dom";
 
 
 const  App=()=> {
@@ -10,6 +12,7 @@ const  App=()=> {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/login" element={<Login/>}></Route>
+        <Route path="/register" element={<Register/>}></Route>
       </Routes>
     </HashRouter>
      

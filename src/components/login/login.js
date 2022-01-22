@@ -1,5 +1,6 @@
 import style from '../../assets/styles/login_styles.css'
 import qr_code from '../../assets/qr_code.png'
+import { Link } from 'react-router-dom'
 
 const Login=()=>{
     return(
@@ -16,7 +17,7 @@ const Login=()=>{
                         <a>Forgot your password?</a>
                         <button id="login--btn">Login</button>
                     </form>
-                    <p id="login--register">Need an account? <a href="./register">Register</a></p>
+                    <p id="login--register">Need an account? <Link to="/register">Register</Link></p>
                 </div>
                 <div id="login--card--qr">
                     <div id="login--QR-code">
