@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: flex;
 }
 
 .channel--nav{
@@ -44,4 +45,54 @@
     background-color: #77f258;
     border-radius: 5rem;
     cursor: pointer;
+    overflow: hidden;
+}
+
+
+#nav--channel--img{
+    height: 100%;
+}
+
+.direct--msg--screen{
+   background-color: #303136;
+   width:15rem;
+   padding: 10px;
+}
+
+#direct--find{
+    background-color: #212226;
+    border-style: none;
+    padding: 10px;
+    width: 100%;
+    height: 1.8rem;
+    border-radius: 0.2rem;
+    margin-bottom: 5px;
+}
+
+hr{
+    width: 100%;
+    margin: 7px;
+    height: 2px;
+    background-color:#212226;
+    border-style: none;
+}
+
+#friends--nitro{
+    display: flex;
+    flex-direction: column;
+}
+
+.direct--button{
+    height: 2.5rem;
+    border-style: none;
+    background-color: #303136;
+    color: #fff;
+    text-align: left;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.direct--button:hover{
+    background-color: #34373c;
 }

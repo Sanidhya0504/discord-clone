@@ -11,7 +11,7 @@ const channelBar =()=>{
                 </button>
                 <hr id="bar"></hr>
                 <button id="nav--channel">
-                    <img id="nav--channel--img" src={logo}></img>
+                    <img id="nav--channel--img" src="https://cdn.pixabay.com/photo/2013/07/13/10/51/football-157930_960_720.png"></img>
                 </button>
             </div>
             
