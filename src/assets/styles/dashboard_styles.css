@@ -1,0 +1,47 @@
+.dash--screen{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.channel--nav{
+    height: 100vh;
+    width: 10vh;
+    background-color: #212226;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+
+#my--channel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    background-color: #5865f2;
+    border-radius: 1.2rem;
+    cursor: pointer;
+}
+#bar{
+    width: 100%;
+    margin: 7px;
+    height: 1px;
+    background-color:#36393f;
+    border-style: none;
+}
+
+
+#nav--channel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    background-color: #77f258;
+    border-radius: 5rem;
+    cursor: pointer;
+}

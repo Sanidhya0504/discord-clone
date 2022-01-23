@@ -15,7 +15,9 @@ const Login=()=>{
                         <label>PASSWORD</label>
                         <input type="password"></input>
                         <a>Forgot your password?</a>
-                        <button id="login--btn">Login</button>
+                        <Link to="/dashboard">
+                            <button id="login--btn">Login</button>
+                        </Link>
                     </form>
                     <p id="login--register">Need an account? <Link to="/register">Register</Link></p>
                 </div>

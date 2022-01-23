@@ -18,7 +18,9 @@ const Register = () => {
                     <label>PASSWORD</label>
                     <input type="password"></input>
                 </div>
-                <button id="register--btn">Continue</button>
+                <Link id="btn--dash" to="/dashboard">
+                    <button id="register--btn">Continue</button>
+                </Link>
                 <div id="register--already">
                     <Link to="/login">Already have an account?</Link>
                 </div>

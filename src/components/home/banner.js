@@ -20,6 +20,7 @@ const HomeBanner=()=>{
                 </div>
                 
                 <div className="left--right--banner">
+                    
                     <img id="home--img--left" src={ImgLeft}></img>
                     <img id="home--img--right" src={ImgRight}></img>
                 </div>
