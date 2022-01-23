@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/discord-clone/static/css/main.944ad9f4.css",
-    "main.js": "/discord-clone/static/js/main.90c728eb.js",
+    "main.css": "/discord-clone/static/css/main.6d818f39.css",
+    "main.js": "/discord-clone/static/js/main.0286bf18.js",
     "static/media/hanging_out_easy_landing.svg": "/discord-clone/static/media/hanging_out_easy_landing.0572906f3c0f5da8decc2b31915b6815.svg",
     "static/media/invite_only_landing.svg": "/discord-clone/static/media/invite_only_landing.dd354f82ddd6c497e26cbde9697234e5.svg",
     "static/media/fandom_landing.svg": "/discord-clone/static/media/fandom_landing.559552bfd926f1f818c1c9e2add4b4c1.svg",
@@ -14,11 +14,11 @@
     "static/media/discord_logo.svg": "/discord-clone/static/media/discord_logo.8fd8ae35e80681b81097103ec651c600.svg",
     "static/media/twitter_icon.svg": "/discord-clone/static/media/twitter_icon.931adcd4c01af956b7d2bda42ba1ddda.svg",
     "index.html": "/discord-clone/index.html",
-    "main.944ad9f4.css.map": "/discord-clone/static/css/main.944ad9f4.css.map",
-    "main.90c728eb.js.map": "/discord-clone/static/js/main.90c728eb.js.map"
+    "main.6d818f39.css.map": "/discord-clone/static/css/main.6d818f39.css.map",
+    "main.0286bf18.js.map": "/discord-clone/static/js/main.0286bf18.js.map"
   },
   "entrypoints": [
-    "static/css/main.944ad9f4.css",
-    "static/js/main.90c728eb.js"
+    "static/css/main.6d818f39.css",
+    "static/js/main.0286bf18.js"
   ]
 }
