@@ -55,8 +55,9 @@
 
 .direct--msg--screen{
    background-color: #303136;
-   width:15rem;
-   padding: 10px;
+   width:18rem;
+   padding: 20px;
+  
 }
 
 #direct--find{
@@ -67,9 +68,10 @@
     height: 1.8rem;
     border-radius: 0.2rem;
     margin-bottom: 5px;
+    
 }
 
-hr{
+#direct--separate{
     width: 100%;
     margin: 7px;
     height: 2px;
@@ -83,16 +85,154 @@ hr{
 }
 
 .direct--button{
-    height: 2.5rem;
+    height: 3rem;
     border-style: none;
     background-color: #303136;
-    color: #fff;
+    color: #82858a;
     text-align: left;
     padding: 1rem;
     cursor: pointer;
     border-radius: 3px;
+    font-size: 1rem;
+    justify-content: center;
+    font-family:'Heebo', sans-serif ;
 }
 
 .direct--button:hover{
     background-color: #34373c;
+    color: #dcdddf;
+}
+
+
+#svg--friends{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+#friends--wrapper{
+    display: flex;
+}
+
+#direct--plus{
+    padding: 1rem 1rem;
+    color: #82858a;
+    font-size: 0.8rem;
+    font-family:'Heebo', sans-serif ;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+#direct--plus:hover{
+    color: #dcdddf;
+}
+
+
+#plus--sign{
+    display: flex;
+    height:0.8rem ;
+    cursor: pointer;
+}
+
+
+.dash--home--screen{
+    width: 100%;
+    background-color: #363940;
+}
+
+
+.dash--nav--wrap{
+    width: fit-content;
+    height: 50px;
+}
+
+
+#nav--content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 3rem;
+    margin-left: 10px;
+}
+
+#nav--friends--svg{
+    color: #72777d;
+    height: 1.5rem;
+}
+#nav--separate{
+    width: 99%;
+    margin: 7px;
+    height: 1px;
+    background-color:#303136;
+    border-style: none;
+}
+
+#nav--friends{
+    font-size: 1rem;
+    color: #72777d;
+    font-family:'Heebo', sans-serif ;
+    margin-right: 1rem;
+
+}
+
+.nav--btn{
+    width: 5rem;
+    font-size: 1rem;
+    color: #72777d;
+    font-family:'Heebo', sans-serif ;
+    background-color: #363940;
+    border: none;
+    padding: 1rem;
+}
+
+#no--friends--img{
+    max-width: 30rem;
+    min-width: 10rem;
+}
+
+#dash--home{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#no--friends--wrap{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#active--now{
+    height: 100%;
+    width: 40%;
+    border-left: 0.5px solid;
+    border-color:#72777d ;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+#active--text{
+    font-family:'Heebo', sans-serif ;
+    color: #fff;
+    font-size: 1.5rem;
+}
+#its--quiet{
+    margin-top: 2rem;
+    text-align: center;
+    color: #fff;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif; ;
+
+}
+#when--a--friend{
+    text-align: center;
+    padding: 1rem;
+    color:#82858a;
+}
+
+@media (max-width:1100px) {
+    #active--now{
+        display: none;
+    }
 }
