@@ -236,3 +236,56 @@
         display: none;
     }
 }
+
+
+
+
+
+
+#channel--head{
+    color: #fff;
+    font-family:'Heebo', sans-serif ;
+    font-size: 1rem;
+}
+
+
+.channel--text{
+    padding: 1rem 0rem;
+    color: #82858a;
+    font-size: 0.8rem;
+    font-family:'Heebo', sans-serif ;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.channel--button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #303136 ;
+    border: none;
+    font-family:'Heebo', sans-serif ;
+    color:#82858a ;
+    width: 100%;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.channel--button:hover{
+    background-color: #34373c;
+    color: #fff;
+}
+
+
+
+.channel--name{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color:  #363940 ;
+    font-family:'Heebo', sans-serif ;
+    color:#fff ;
+    width: 100%;
+    height: 2rem;
+}
