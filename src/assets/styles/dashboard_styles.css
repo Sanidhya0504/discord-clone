@@ -154,7 +154,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
     height: 3rem;
     margin-left: 10px;
 }
@@ -332,3 +331,4 @@
     border-radius: 10px;
     width: inherit;
 }
+

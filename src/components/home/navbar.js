@@ -2,8 +2,15 @@ import react from "react";
 import discord_logo from '../../assets/discord_logo.svg';
 import style from '../../assets/styles/home.css';
 import { Link } from "react-router-dom";
+import {FiMenu} from "react-icons/fi";
+import DeskNav from "./desknav";
+import MobileNav from "./mobilenav";
+import { useState } from "react";
 
 const Nav = () => {
+
+    const [open, setOpen] = useState(false);
+
     return(
         <nav>
             <div className="nav--wrap">
@@ -12,20 +19,15 @@ const Nav = () => {
                     <img id="home--logo--img" src={discord_logo}></img>
                     <span id="logo--text">Discord</span>
                 </div>
-                <div className="home--nav--buttons">
-                    <a className='nav--button'>Download</a>
-                    <a className='nav--button'>Nitro</a>
-                    <a className='nav--button'>Safety</a>
-                    <a className='nav--button'>Support</a>
-                    <a className='nav--button'>Blog</a>
-                    <a className='nav--button'>Careers</a>
-                </div>
+                <DeskNav/>
                 <div>
                     <button className='nav--login--button'>
                         <Link to='/login'>Login</Link>
                     </button>
+                    <FiMenu className="nav--burger" onClick={()=> setOpen(!open)}/>
                 </div>
             </div>
+            {open && <MobileNav/>}
         </nav>
     )
 }

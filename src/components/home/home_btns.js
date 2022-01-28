@@ -18,6 +18,13 @@ const HomeBtns = () => {
                     
                 </Link>
             </div>
+            <div className="home-btns-sub-div play--store">
+                <Link to="/" id="open--in">
+                    
+                        Download from PlayStore
+                    
+                </Link>
+            </div>
         </div>
     )   
 }
