@@ -1,16 +1,18 @@
 import react from "react";
 import ServerNav from "./servernav";
+import MsgServer from "./msgserver";
+import ServerActive from "./serveractive";
 
 
 const ServerHome =()=>{
     return(
         <div className="dash--home--screen">
-            <ServerNav/>
-            <div id="dash--home">
-                <div id="no--friends--wrap">
-                    
+            <ServerNav/> 
+                <div id="msg--status--wrap">
+                    <MsgServer/>
+                    <ServerActive/>
                 </div>
-            </div>
+                
         </div>
     )
 }
