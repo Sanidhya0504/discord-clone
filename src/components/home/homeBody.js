@@ -37,7 +37,7 @@ const HomeBody = () => {
                     <h3 className="card--head">RELIABLE TECH FOR STAYING CLOSE</h3>
                     <p className="card--text">Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
                 </div>
-                <img id="card--img--four" src={ImgFour}></img>
+                <img id="card--img--one" src={ImgFour}></img>
                 <div id="home--body--foot">
                     <p id="home--foot--text">Ready to start your journy?</p>
                 </div>

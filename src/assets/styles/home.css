@@ -61,6 +61,7 @@
     font-family: 'Heebo', sans-serif;
     max-width: 100%; 
     overflow: hidden;
+    background-position: -40rem;
 
 }
 
@@ -78,7 +79,7 @@
     min-width: 300px;
     max-width: 700px;
     position: absolute;
-    bottom: 75px;
+    bottom: 3.8rem;
     left: 0;
     overflow: hidden;
 }
@@ -88,7 +89,7 @@
     min-width: 300px;
     max-width: 700px;
     position: absolute;
-    bottom: 75px;
+    bottom: 3.8rem;
     right: 0;
     overflow: hidden;
 }
@@ -113,7 +114,7 @@
 #home--body--heading{
     font-family: 'Heebo', sans-serif;
     font-size: 4rem;
-    margin-top: 60px;
+    margin-top: 25px;
 }
 .home--body--span{
     margin-bottom: 10px;
@@ -123,7 +124,7 @@
 .home--card--one{
     display: flex;
     height: 95vh;
-    padding: 170px;
+    padding: 20vh 10vh;
     justify-content: space-between;
     align-items: center;
     color: #23272a;
@@ -132,7 +133,7 @@
 .home--card--two{
     display: flex;
     height: 95vh;
-    padding: 170px;
+    padding: 20vh 10vh;
     justify-content: space-between;
     align-items: center;
     color: #23272a;
@@ -141,25 +142,25 @@
 
 #card--img--one{
     max-height: 60vh;
-    min-width: 30vh;
+    min-width: 40vh;
 }
 
 #card--text--one{
-    height: 60vh;
-    max-width: 70vh;
-    padding: 30px 54px;
+    padding: 0 50px;
+    max-width: 40vw;
     
 }
 
 .card--head{
-    font-size: 50px;
+    font-size: 3vw;
+    max-height: inherit;
     font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .card--text{
     font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding-top: 45px;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 .home--card--four{
@@ -173,7 +174,6 @@
     text-align: center;
 }
 #home--body--foot{
-    height: 100px;
     background-color: #f6f6f6;
     display: flex;
     justify-content: center;
@@ -182,22 +182,37 @@
 #home--foot--text{
     font-style: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-image: url(../tiny_stars_landing.svg);
-    font-size: 40px;
+    background-repeat: no-repeat;
+    font-size: 4vh;
     font-weight: bold;
     max-width: 70rem;
     padding: 15px;
 }
 
 #home--foot{
-    height: 70vh;
+    height: 60vh;
     background-color: #23272a;
-    padding: 5rem 10rem;
+    padding: 5vh 10vw;
     max-width: 100%;
     overflow: hidden;
     display: flex;
     justify-content:space-between;
 }
-
+#foot--nav{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
+#foot--nav--one{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+#foot--nav--two{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+}
 #imagine{
     color: #5865f2;
     font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -288,6 +303,21 @@
     #home--img--left{
         height: 300px;
     }
+    .home--card--one ,.home--card--two{
+        flex-direction: column;
+    }
+    #card--img--one{
+        max-width: 45vw;
+    }
+    .card--head{
+        font-size: calc(0.75em + 2vmin);
+    }
+    .card--text{
+        font-size: calc(0.5em + 1vmin);
+    }
+    #card--text--one{
+        max-width: 50vw;
+    }
 }
 
 @media (max-width:850px) {
@@ -309,9 +339,13 @@
         padding: 0 100px;
         width: 100%;
     }
+    #card--text--one{
+        max-width: 60vw;
+    }
 }
 
 .nav--burger{
+    
     display: none;
 }
 
@@ -356,7 +390,7 @@
         cursor: pointer;
         position: absolute;
         right: 5%;
-        color: black;
+        color: #fff;
         
     }
     .nav--button{
@@ -364,6 +398,15 @@
     }
     .play--store{
         display: flex;
+    }
+    #foot--nav{
+        flex-direction: column;
+    }
+    #foot--nav--one{
+        gap: 5vh;
+    }
+    #foot--nav--two{
+        gap: 5vh;
     }
 }
 
@@ -385,6 +428,13 @@
         padding: 0 80px;
         width: 100%;
         text-align: left;
+    }
+    #card--text--one{
+        padding: 0 1vh;
+        
+    }
+    #home--foot{
+        flex-direction: column;
     }
 }
 
