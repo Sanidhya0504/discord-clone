@@ -4,7 +4,7 @@
 
 The main landing page of the website contains two buttons, clicking on Open In Brwoser/Login button would rout to the login page. The main page is mobile responsive.
 
-![alt text](pictures/landing.png)
+![alt text](pictures/landing.png)<img src="./pictures/landing.png" height="100">
 ![alt text](pictures/landing2.png)
 ![alt text](pictures/mobile-landing.png)
 
